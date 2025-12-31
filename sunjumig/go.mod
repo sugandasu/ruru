@@ -1,4 +1,4 @@
-module github.com/sugandasu/sunjumig
+module github.com/sugandasu/ruru/sunjumig
 
 go 1.25.0
 

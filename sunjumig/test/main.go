@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/sugandasu/sunjumig"
+	"github.com/sugandasu/ruru/sunjumig"
 )
 
 func main() {
