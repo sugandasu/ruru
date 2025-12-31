@@ -1,4 +1,4 @@
-module github.com/sugandasu/nibirudb
+module github.com/sugandasu/ruru/nibirudb
 
 go 1.25.0
 

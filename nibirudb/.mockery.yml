@@ -1,5 +1,5 @@
 packages:
-    github.com/sugandasu/nibirudb:
+    github.com/sugandasu/ruru/nibirudb:
         interfaces:
             Transaction:
             Database:
