@@ -3,9 +3,10 @@ package jongi
 import "github.com/golang-jwt/jwt/v5"
 
 type AuthClaims struct {
-	UserID    string   `json:"user_id"`
-	Role      AuthRole `json:"roles"`
-	CompanyID string   `json:"company_id"`
+	UserID    string         `json:"user_id"`
+	Role      AuthRole       `json:"roles"`
+	CompanyID string         `json:"company_id"`
+	User      map[string]any `json:"user,omitempty"`
 	jwt.RegisteredClaims
 }
 
